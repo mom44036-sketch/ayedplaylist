@@ -132,7 +132,7 @@ function renderSidebar() {
   const mobileHeader = App.ui.mobileDrawerOpen
     ? `<div class="d-flex align-items-center justify-content-between mb-4 d-lg-none">
          <h3 class="fw-bold text-primary-brand mb-0">قائمة الدورة</h3>
-         <button class="btn btn-light rounded-circle border" style="width:32px;height:32px;" data-action="close-mobile-drawer">
+         <button class="btn btn-light rounded-circle border drawer-close-btn" data-action="close-mobile-drawer">
            <i class="bi bi-x-lg"></i>
          </button>
        </div>`
